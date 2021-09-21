@@ -7,7 +7,7 @@ for( int y = -40; y<540;y++)
 	scale(x,y);
 }
 
-void scale(int x, int y)
+void scale(int x, int y){
 stroke(0);
 ellipse(x,y,50,50);
 ellipse(x,y,30,30);
