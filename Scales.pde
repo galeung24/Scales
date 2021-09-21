@@ -1,11 +1,19 @@
-void setup() {
-  size(500, 500);  //feel free to change the size
-  noLoop(); //stops the draw() function from repeating
+void setup(){
+	size(500, 500);
 }
-void draw() {
-  //your code here
+void draw(){
+for( int y = -40; y<540;y++)
+	for( int x =-40; x<540;y++)
+	scale(x,y);
 }
-void scale(int x, int y) {
-  //your code here
+
+void scale(int x, int y)
+stroke(0);
+ellipse(x,y,50,50);
+ellipse(x,y,30,30);
+ellipse(x,y,17,17);
+fill(255,0,255,100);
+
 }
+
 
